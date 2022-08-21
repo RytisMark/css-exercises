@@ -50,12 +50,8 @@ ul {
 
 .header {
     display: flex;
-    flex-flow: wrap;
     justify-content: space-between;
-}
-
-.logo {
-  padding: 8px;
+    padding: 8px;
 }
 
 ul {
@@ -63,19 +59,10 @@ ul {
   gap: 16px;
   margin: 0;
   padding: 0;
-  padding-left: 8px;
 }
 
-.left-things {
+.left-things, .right-things {
   display: flex;
   align-items: center;
-}
-
-.right-things {
-  display: flex;
-  align-items: center;
-  padding: 8px;
   gap: 16px;
-  justify-content: space-between;
 }
-
