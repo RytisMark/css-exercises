@@ -69,12 +69,15 @@ button.cancel {
   color: royalblue;
 }
 
+.icon {
+  flex-shrink: 0;
+}
+
 .title-and-close {
   display: flex;
-  width: auto;
   align-items: center;
   padding-bottom: 8px;
-  gap: 128px;
+  justify-content: space-between;
 }
 
 .header {
