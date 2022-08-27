@@ -38,9 +38,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -64,22 +65,20 @@ a {
 
 .sidebar {
   display: flex;
-  flex-flow: column;
   width: 300px;
+  flex-shrink: 0;
   padding: 16px;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
-  margin: 48px;
-  gap: 32px;
+  padding: 32px;
 }
 
 .card {
-  display: flex;
   padding: 16px;
+  margin: 16px;
   width: 300px;
 }
 
